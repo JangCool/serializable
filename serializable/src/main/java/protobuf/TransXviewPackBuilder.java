@@ -2250,8 +2250,8 @@ public final class TransXviewPackBuilder {
       "(\005\022\r\n\005cpu_t\030\016 \001(\005\022\r\n\005bytes\030\017 \001(\005\022\014\n\004l_ip" +
       "\030\020 \001(\t\022\014\n\004r_ip\030\021 \001(\t\022\016\n\006method\030\022 \001(\t\022\r\n\005" +
       "ref_h\030\023 \001(\005\022\013\n\003err\030\024 \001(\005\022\017\n\007err_cls\030\025 \001(" +
-      "\005\022\r\n\005err_g\030\026 \001(\002\022\013\n\003uid\030\027 \001(\005B&\n\rkr.co.p" +
-      "ionnetB\025TransXviewPackBuilderb\006proto3"
+      "\005\022\r\n\005err_g\030\026 \001(\002\022\013\n\003uid\030\027 \001(\005B(\n\rkr.co.p" +
+      "ionnetB\025TransXviewPackBuilderH\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option optimize_for = SPEED;
+
+option java_package = "kr.co.pionnet";
+option java_outer_classname = "TransXviewPackBuilder";
+
+
+message TransXviewPack{
+
+	int32 dataType      = 1;
+	string aid 			= 2;
+	string gid			= 3;
+	int64 txid 			= 4;
+	int64 sTime			= 5;
+	int64 eTime			= 6;
+	int32 elapsed		= 7;
+	int32 serv_h		= 8;
+	int32 uagent_h		= 9;
+	int32 qst_h			= 10;
+	int32 sql_t			= 11;
+	int32 sql_c			= 12;
+	int32 fetch_c		= 13;
+	int32 cpu_t			= 14;
+	int32 bytes			= 15;
+	string l_ip 		= 16;
+	string r_ip 		= 17;
+	string method 		= 18;
+	int32 ref_h 		= 19;
+	int32 err 			= 20;
+	int32 err_cls 		= 21;
+	float err_g 		= 22;
+	int32 uid			= 23;
+
+}

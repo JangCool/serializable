@@ -3,7 +3,7 @@ import custom.TransXviewPack;
 
 public class CustomPojoTest {
 
-	public static int loop = 1000000;
+	public static int loop = 10000;
 	
 	public static void main(String[] args) {
 		
